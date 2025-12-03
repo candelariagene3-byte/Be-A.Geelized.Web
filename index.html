@@ -1,0 +1,481 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Be A.Geelized - Hair & Makeup Booking</title>
+<style>
+    body {
+        margin: 0;
+        font-family: serif;
+        background-color: #1e1e1e;
+        color: #f0f0f0;
+    }
+
+    header {
+        text-align: center;
+        background-color: ;
+        color: #ffffff;
+        padding: 1px;
+    }
+
+    header img {
+        width:350px;
+        height: auto;
+        display: block;
+        margin: 0 auto 10px;
+        border-radius: 50%;
+    }
+
+    nav {
+        background-color: #2c2c2c;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #f0f0f0;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    nav a:hover {
+        color: #ff6b81;
+    }
+
+    .section {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .category-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 25px;
+        margin-top: 25px;
+    }
+
+    .item-card {
+        background-color: #2c2c2c;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        position: relative;
+        transition: transform 0.2s;
+    }
+
+    .item-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .item-card img {
+        width: 100%;
+        border-radius: 11px;
+        height: 550px;
+        object-fit: cover;
+    }
+
+    .heart {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 24px;
+        color: #ff6b81;
+        cursor: pointer;
+    }
+
+    .form-box, .booking-box {
+        background: #2c2c2c;
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        text-align: left;
+    }
+
+    .form-box input,
+    .booking-box input,
+    .booking-box select,
+    .booking-box textarea {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+        border: 1px solid #555555;
+        border-radius: 8px;
+        font-size: 16px;
+        background-color: #1e1e1e;
+        color: #f0f0f0;
+    }
+
+    .form-box button,
+    .booking-box button {
+        width: 100%;
+        padding: 12px;
+        background-color: #ff6b81;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    footer {
+        background-color: #000000;
+        color: #f0f0f0;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    h2 {
+        color: #f0f0f0;
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: #cccccc;
+        line-height: 1.6;
+    }
+
+</style>
+</head>
+<body>
+
+<header>
+     <img src="ag.jpg" width="100"height="400">
+    <h1>Be A.Geelized</h1>
+	<p>#A.GeelizedByYoursTruly</p>
+</header>
+
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#hair">Hair</a>
+    <a href="#makeup">Makeup</a>
+    <a href="#contact">Contact</a>
+	 <a href="#booking">Price List</a>
+    <a href="#booking">Booking</a>
+</nav>
+
+<!-- About Section -->
+<section id="about" class="section">
+    <h1>______________ABOUT OUR SERVICE______________</h1>
+    <p>Welcome to <b>Be A.Gilized</b> — We offer specialized hair and makeup services, catering to everything from everyday glamour to the most significant moments of your life. Our team of experienced and passionate artists is dedicated to understanding your vision and executing it with precision and style.
+	Whether it’s graduation, weddings, debuts, birthdays, or any special occasion, we are here to make you shine.
+</p>
+<P><b>At graduations</b> — we celebrate your achievements with styles that reflect your personality and grace.
+
+<P><b>For weddings</b> —  our team creates timeless looks that enhance your natural beauty, ensuring you feel radiant on your big day.
+
+<P><b>Debut celebrations</b> —  you deserve glam touches that highlight this special milestone in your life.
+
+<P><b>Birthdays</b> — are all about you, and we’ll help you embrace your unique style for an unforgettable celebration.
+
+<P><b>Whatever the occasion</b> —  we’re dedicated to bringing your vision to life and making every moment memorable.
+
+<p><b>Avel Alejandro and Geneviere Candelaria</b> combined their passion and expertise to establish a hair and make-up services focused on artistic quality and client satisfaction.
+Their collaborative spirit and dedication to current beauty trends ensure every client receives a contemporary, flawless, and personalized look.
+<p><b>Be one of our A.Geelized babies!</b></p>
+<p><b>Be extra!</b></p>
+<p><b>Be unique!</b></P>
+<P><b>Be A.Glized!</b></p>
+</section>
+
+<!-- Hair Section -->
+<section id="hair" class="section">
+    <h1>____________________HAIR CATEGORIES____________________</h1>
+	 <h2>Wavy Hair</h2>
+	 <p1>Give your look a fresh update with our beautiful wavy hairstyle that adds lovely volume.These soft waves frame your face perfectly, giving you a relaxed and stylish feel. Whether you’re out with friends or dressing up for a special event, this hairstyle will highlight your natural beauty and make you shine.</p1>
+<div class="category-grid">
+        <div class="item-card">
+           <img src="barbie.jpg" width="400" height="400">
+        </div>
+
+        <div class="item-card">
+            <img src="rose.jpg"width="200" height="200">
+        </div>
+
+        <div class="item-card">
+            <img src="grad.jpg"width="200" height="200">
+        </div>
+    </div>
+</section>
+       
+	   <div class="category-grid">
+        <div class="item-card">
+           <img src="debut.jpg"width="200" height="200">
+        </div>
+
+        <div class="item-card">
+            <img src="bride1.jpg"width="200" height="200"">
+        </div>
+
+        <div class="item-card">
+            <img src="pageant.jpg"width="200" height="200">
+        </div>
+    </div>
+</section>
+
+<section id="hair" class="section">
+	 <h1>Ponytail</h1>
+	 <p1>Elevate your look instantly with our specialized Ponytail Hair Sets! At Be A.Geelized, 
+	 we recognize that the ponytail is the ultimate versatile hairstyle—chic, sophisticated, and perfect for any occasion, 
+	 from the office to the runway.</p1>
+<div class="category-grid">
+        <div class="item-card">
+          <img src="redpony.jpg"width="200" height="200">
+        </div>
+
+        <div class="item-card">
+            <img src="missymae.jpg"width="200" height="200">
+        </div>
+
+        <div class="item-card">
+            <img src="blackpony.jpg"width="200" height="200">
+        </div>
+    </div>
+</section>
+       
+	   <div class="category-grid">
+        <div class="item-card">
+            <img src="bluepony.jpg"width="200" height="200">
+        </div>
+
+        <div class="item-card">
+            <img src="yellowpony.jpg"width="200" height="200">
+        </div>
+
+        <div class="item-card">
+           <img src="whitepony.jpg"width="200" height="200">
+		</div>
+    </div>
+</section>
+    
+	<section id="hair" class="section">
+	 <h1>Half-up</h1>
+	 <p1>The Half-Up Hair Set is the mixture of balance and effortless chic—it keeps your hair beautifully styled and secured while allowing your length and texture to flow freely. 
+	 At Be A.Geelized, we perfect this timeless look, transforming it from a casual style into a sophisticated statement suitable for any special occasion.</p1>
+<div class="category-grid">
+        <div class="item-card">
+           <img src="halfyellow.jpg"width="200" height="200">
+        </div>
+
+        <div class="item-card">
+            <img src="halfpink.jpg"width="200" height="200">
+        </div
+		
+		class="category-grid">
+        <div class="item-card">
+           <img src="halfoldrose.jpg"width="200" height="200">
+        </div>
+
+</section>
+       
+	   <div class="category-grid">
+        <div class="item-card">
+           <img src="halfwhite.jpg"width="200" height="200">
+        </div>
+
+        <div class="item-card">
+            <img src="halfrose.jpg"width="200" height="200">
+        </div>
+
+        <div class="item-card">
+            <img src="halfred.jpg"widlth="200" height="200">
+        </div>
+    </div>
+</section>
+
+<section id="hair" class="section">
+	 <h1>Up-do</h1>
+	 <p1>For moments that demand formal perfection and lasting glamour, the Updo Hair Set offered at Be A.Geelized is the ultimate choice. 
+	 Our updos are not just about pinning hair up; they are carefully sculpted works of art designed to highlight your facial features, accentuate your gown, and ensure you maintain a polished, impeccable look from the first moment to the last.</p1>
+<div class="category-grid">
+        <div class="item-card">
+           <img src="updored.jpg"widlth="200" height="200">
+        </div>
+
+        <div class="item-card">
+            <img src="updopurple.jpg"widlth="200" height="200">
+        </div>
+
+        <div class="item-card">
+            <img src="updoblack.jpg"widlth="200" height="200">
+        </div>
+    </div>
+</section>
+       
+	   <div class="category-grid">
+        <div class="item-card">
+           <img src="updonude.jpg"widlth="200" height="200">
+        </div>
+
+        <div class="item-card">
+            <img src="updopink.jpg"widlth="200" height="200">
+        </div>
+
+        <div class="item-card">
+            <img src="updoviolet.jpg"widlth="200" height="200">
+        </div>
+    </div>
+</section>
+
+<!-- Makeup Section -->
+<section id="makeup" class="section">
+    <section id="hair" class="section">
+	 <h1>____________________MAKE-UP CATEGORIES____________________</h1>
+	 <h1>Soft-Glam</h1>
+	 <p1>Our Soft Glam Makeup Look is the perfect synthesis of a sophisticated, camera-ready finish and a subtle, natural glow. It's the ideal choice when you want to feel polished and glamorous without the heavy, dramatic feel of full coverage or harsh lines. 
+This look focuses on enhancing your best features through expert blending and a beautiful monochromatic color palette.</p1>
+<div class="category-grid">
+        <div class="item-card">
+           <img src="soft1.jpg"widlth="200" height="200">
+        </div>
+
+        <div class="item-card">
+            <img src="soft2.jpg"widlth="200" height="200">
+        </div>
+
+        <div class="item-card">
+            <img src="soft3.jpg"widlth="200" height="200">
+        </div>
+    </div>
+</section>
+       
+	   
+
+<section id="hair" class="section">
+	 <h1>Full-Glam</h1>
+	 <p1>Our Full Glam Makeup Look is designed to deliver a striking, high-impact appearance that is absolutely flawless under all lighting conditions, especially professional photography and evening lights. 
+	 This is our boldest, most defined, and most glamorous service—perfect for the client who wants to turn heads and feel like they just stepped off a red carpet.</p1>
+<div class="category-grid">
+        <div class="item-card">
+           <img src="glam1.jpg"widlth="200" height="200">
+        </div>
+
+        <div class="item-card">
+           <img src="glam2.jpg"widlth="200" height="200">
+
+        </div>
+
+        <div class="item-card">
+            <img src="glam4.jpg"widlth="200" height="200">
+        </div>
+    </div>
+</section>
+       
+<!-- Price List Section -->
+<section id="prices" class="section">
+    <h1>____________________OUR PRICE LIST____________________</h1>
+    <div class="category-grid">
+        <div class="item-card">
+            <h3>Hair Down Styling</h3>
+            <p>Soft curls,Big curls, or waves</p>
+            <p><strong>₱1,500</strong></p>
+        </div>
+
+        <div class="item-card">
+            <h3>Hair Up Styling</h3>
+            <p>Elegant updos and ponytails for weddings, proms, and events</p>
+            <p><strong>₱1,200</strong></p>
+        </div>
+
+        <div class="item-card">
+            <h3>Soft Glam Makeup</h3>
+            <p>Natural, elegant makeup for special occasions</p>
+            <p><strong>₱1,500</strong></p>
+        </div>
+
+        <div class="item-card">
+            <h3>Full Glam Makeup</h3>
+            <p>Bold, dramatic, and glamorous looks</p>
+            <p><strong>₱2,000</strong></p>
+        </div>
+
+        <div class="item-card center-card">
+        <h3>Hair + Makeup Package</h3>
+        <p>Complete styling and makeup for special events</p>
+        <p><strong>₱2,800</strong></p>
+    </div>
+	
+	<div class="item-card center-card">
+        <h3>Hair Retouch</h3>
+        <p>For Unli Hair Retouch add</p>
+        <p><strong>₱500</strong></p>
+    </div>
+	
+	<div class="item-card center-card">
+        <h3>Make-up Retouch</h3>
+        <p>For Make-up Retouch add</p>
+        <p><strong>₱500</strong></p>
+    </div>
+	
+	<div class="item-card center-card">
+        <h3>Full assist</h3>
+        <p>We also offer full assist</p>
+        <p><strong>₱1,000</strong></p>
+    </div>
+	
+</section>
+
+
+<!-- Booking Form -->
+<section id="booking" class="section">
+    <h2>_________Book Your Glam Appointment_________</h2>
+
+    <div class="booking-box">
+        <label>Full Name:</label>
+        <input type="text" placeholder="Enter your full name">
+
+        <label>Email Address:</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Phone Number:</label>
+        <input type="text" placeholder="Enter your phone number">
+
+        <label>Select Service:</label>
+        <select>
+            <option>Hair Down Styling</option>
+            <option>Hair Up Styling</option>
+            <option>Soft Glam Makeup</option>
+            <option>Full Glam Makeup</option>
+            <option>Hair + Makeup Package</option>
+			<option>Hair Retouch</option>
+			<option>Make-up Retouch</option>
+			<option>Full Assit</option>
+			
+        </select>
+
+        <label>Select Date:</label>
+        <input type="date">
+
+        <label>Select Time:</label>
+        <input type="time">
+
+        <label>Additional Notes:</label>
+        <textarea rows="4" placeholder="Anything we should know?"></textarea>
+
+        <button>Submit Booking</button>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: beageelizedbeauty@gmail.com</p>
+    <p>Facebook: Be A.Geelized Beauty</p>
+    <p>Phone:09655847372</p>
+</section>
+
+<footer>
+    © 2025 Be A.Geelized — All Rights Reserved.
+</footer>
+
+</body>
+</html>
